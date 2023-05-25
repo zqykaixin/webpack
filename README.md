@@ -35,3 +35,21 @@ npm i html-webpack-plugin -D
 npm i file-loader url-loader  -D
 
 下载 clean-webpack-plugin 插件, 用来每次build之前先清空dist文件.
+
+分离css和js模块,单独加载.
+
+npm i mini-css-extract-plugin -D
+
+压缩js和css
+
+npm i terser-webpack-plugin  -D
+
+webpack5 一下的用 optimize-css-assets-webpack-plugin 插件压缩css . 
+
+webpack5 需要用 npm install css-minimizer-webpack-plugin 插件压缩css
+
+指定存放位置, 图片放在images,css放在css文件夹
+
+在html加载img标签
+
+npm i html-withimg-loader - D

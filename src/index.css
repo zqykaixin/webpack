@@ -5,3 +5,8 @@
     background-size: 100%;
     background-image: url(./image/R-C.jpg);
 }
+
+img {
+    width: 100px;
+    height: 100px;
+}
