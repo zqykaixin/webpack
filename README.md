@@ -53,3 +53,27 @@ webpack5 需要用 npm install css-minimizer-webpack-plugin 插件压缩css
 在html加载img标签
 
 npm i html-withimg-loader - D
+
+
+
+处理less sass less-loader  sass-loader
+
+postcss-loader 有些属性需要加前缀才能生效  也可以写在配置文件 postcss.config.js
+
+转义 jsx ES6 bable插件
+
+bable-loader @bable/core @bable/preset-env  @bable/preser-react
+
+这些可以写在loader中，也可以专门写在一个配置文件 .babelrc
+
+
+装饰器，
+
+es6转成ES5的时候，打包后会出现一些方法用来转换。每个ES6代码的都会出现，
+所以需要插件，将共有的提出。 ---- babel runtime
+@bable/pligin-transform-runtime  插入一些公用方法，（体积会变大）
+
+
+eslint 规则配置
+
+
